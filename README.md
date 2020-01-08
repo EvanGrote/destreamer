@@ -1,3 +1,5 @@
+# [EVAN LOOK AT THE GUIDE YOU WROTE](EVAN_READ_THIS.md)
+
 # Destreamer
 
 ![](logo.png)

@@ -7,10 +7,12 @@ import { BrowserTests } from './BrowserTests';
 
 // Type in your username here (the one you use to
 // login to Microsoft Stream).
-const username: string = 'somebody@example.com';
+// const username: string = 'somebody@example.com';
+const username: string = '<userId>@company.net';
 const args: string[] = process.argv.slice(2);
 const videoUrl: string = args[0];
-const outputDirectory: string = 'videos';
+// const outputDirectory: string = '/Users/<userId>/Downloads'; // MacOS
+const outputDirectory: string = 'C:/Users/<userId>/Github'; // Windows VM
 
 function sanityChecks() {
     try {
